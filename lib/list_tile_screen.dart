@@ -17,7 +17,7 @@ class _ListTileScreenState extends State<ListTileScreen> {
       ),
       body:const ListTile(
         leading : Icon(Icons.accessible_forward),
-        title: Text('Kaushal Khanal'),
+        title: Text('Niraj Bhatta'),
         subtitle:  Text('Kathmandu,Nepal'),
         
       ),
