@@ -1,7 +1,8 @@
 //import 'package:first_project/arithmetic_output_screen.dart';
 //import 'package:first_project/arithmetic_screen.dart';
 //import 'package:first_project/column_screen.dart';
-import 'package:first_project/classexercise.dart';
+import 'package:first_project/screens/display_students.dart';
+import 'package:first_project/student_details.dart';
 //import 'package:first_project/container.dart';
 //import 'package:first_project/image_screen.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +12,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter for class',
+      initialRoute: '/',
       routes: {
         //'/': (context) => const SimpleInterestScreen(),
         //'/': (context) => const ArithmeticScreen(),
@@ -19,11 +21,11 @@ void main() {
         //'/': (context) => const ListTileScreen(),
         // '/': (context) => const Screen_container(),
         //'/': (context) => const ImageScreen(),
-        //'/': (context) => const StudentScreen(),
+        '/': (context) => const StudentDetailsScreen(),
         //'/': (context) => const FlexibleScreen(),
         //'/': (context) => const SnackBarScreen(),
-        '/': (context) => const RowsColumnScreen(),
-
+        //'/': (context) => const RowsColumnScreen(),
+        '/displaystudent': (context) => const DisplayStudentScreen(),
       },
     ),
   );

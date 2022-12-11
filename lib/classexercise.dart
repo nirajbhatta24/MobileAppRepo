@@ -21,37 +21,37 @@ class _RowsColumnScreenState extends State<RowsColumnScreen> {
           children: [
             Expanded(child: Container(
               height:100,
+              color: const Color.fromARGB(255, 54, 216, 244),
               child: const Text("Container1"),
-              color: Colors.red,
               
 
             )),
             Expanded(child: Container(
                height:100,
+              color: const Color.fromARGB(255, 103, 243, 33),
               child: const Text("Container2"),
-              color: Colors.blue,
             )),
             Expanded(child: Container(
                height:100,
+              color: const Color.fromARGB(255, 163, 166, 163),
               child: const Text("Container3"),
-              color: Colors.green,
             ))
           ],
         ),
         Expanded(child: Container(
+          color: const Color.fromARGB(255, 255, 160, 59),
+          width: double.infinity,
           child: const Text("Container4"),
-          color: Colors.yellow,
-          width: double.infinity,
         )),
         Expanded(child: Container(
+          color: const Color.fromARGB(255, 231, 62, 116),
+          width: double.infinity,
           child: const Text("Container5"),
-          color: Colors.pink,
-          width: double.infinity,
         )),
         Expanded(child: Container(
-          child: const Text("Container6"),
-          color: Colors.green,
+          color: const Color.fromARGB(255, 11, 81, 14),
           width: double.infinity,
+          child: const Text("Container6"),
         ))
         ],
       ),
